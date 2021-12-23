@@ -39,6 +39,23 @@ In Linux CAN interface can be brought up using [slcand](https://elinux.org/Bring
 
 `candump can0                	# Receive CAN packets on CAN0`
 
+**Python-CAN:**
+```python
+import can
+
+bus = can.interface.Bus(bustype='slcan', channel='COM70', bitrate=500000)           #Windows
+#bus = can.interface.Bus(bustype='slcan', channel='/dev/ttyACM0', bitrate=500000)   #Linux
+msg = can.Message(arbitration_id=0x112233,
+                  data=[1, 2, 3, 4, 5, 6, 7, 8],
+                  is_extended_id=True)
+try:
+    bus.send(msg)
+    print("Message sent")
+except can.CanError:
+    print("Message NOT sent")
+for msg in bus:
+    print(msg)  ## Print received messages
+```
 ## 2. candleLight Firmware:
 
 candleLight firmware generally has a better performance than slcan. Under Windows and Ubuntu it can be used with MicroBus or Cangaroo APP.
@@ -50,7 +67,7 @@ candleLight is natively supported under linux using gs_usb driver. Just plug it 
 
 
 **candleLight Python:**
-For development you can install candle-driver 
+For development you can install [candle-driver](https://pypi.org/project/candle-driver/) 
 
 
 ![image](https://user-images.githubusercontent.com/94690098/146776619-c8d04ee8-6a10-4300-8b9d-c7074e0080b7.png)
