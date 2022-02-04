@@ -95,7 +95,8 @@ For development you can install [candle-driver](https://pypi.org/project/candle-
 
 CAN-Analyzer firmware is based on slcan firmware, it also uses CDC serial interface. This firmware was ported for the sole purpose of interfacing with [realdash](http://realdash.net/).
 
+<img width="1202" alt="realdash" src="https://user-images.githubusercontent.com/94690098/152482848-4c42f9c8-d35b-4787-a7a1-b6f56f1d981a.png">
 
 ---
 
-© 2021 meatPi Electronics | www.meatpi.com | PO Box 5005 Clayton, VIC 3168, Australia
+© 2022 meatPi Electronics | www.meatpi.com | PO Box 5005 Clayton, VIC 3168, Australia
