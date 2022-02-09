@@ -2,19 +2,9 @@
 
 [www.meatpi.com](https://www.meatpi.com)
 ---
-**All applications are available [Here](https://bit.ly/3yGgGTm)**
+**All applications are available [Here](https://bit.ly/3yGgGTm)**, follow the insturctions to [Flash new Firmware](#flash-new-firmware)
 
-![image](https://user-images.githubusercontent.com/94690098/146773960-5d2bcb26-4532-49b1-88ed-c5d18794a0c0.png)
-### Flash new Firmware:
-Download mpFlasher Tool. [**Link**](https://bit.ly/3yGgGTm)
-1. Available API for **LabView, C#, VB.Net, Delphi, Python**
-2. Supports **BUSMaster** using SocketCAN Firmware (VSCOM)
-3. Set the 1.27mm DFU jumper
-4. Plug in the USB cable, both LEDs should start blinking
-5. Once in DFU mode, the device will appear as "USB Serial Device"
-6. If you have multiple USB Serial devices connected make sure to choose the right one
-7. Click the "Three Dots" button to select the firmware file
-8. Then Click flash button. 
+
 
 ## 1. SocketCAN Firmware (VSCOM API):
 SocketCAN is similar CANtact firmware below, but support some extra features like **BUSMaster** compatiblity and availability of APIs in different languages such as **LabView, C#, VB.Net, Delphi, Python and more**.
@@ -96,6 +86,19 @@ For development you can install [candle-driver](https://pypi.org/project/candle-
 CAN-Analyzer firmware is based on slcan firmware, it also uses CDC serial interface. This firmware was ported for the sole purpose of interfacing with [realdash](http://realdash.net/).
 
 <img width="1202" alt="realdash" src="https://user-images.githubusercontent.com/94690098/152482848-4c42f9c8-d35b-4787-a7a1-b6f56f1d981a.png">
+
+### Flash new Firmware:
+
+![image](https://user-images.githubusercontent.com/94690098/146773960-5d2bcb26-4532-49b1-88ed-c5d18794a0c0.png)
+Download mpFlasher Tool. [**Link**](https://bit.ly/3yGgGTm)
+1. Available API for **LabView, C#, VB.Net, Delphi, Python**
+2. Supports **BUSMaster** using SocketCAN Firmware (VSCOM)
+3. Set the 1.27mm DFU jumper
+4. Plug in the USB cable, both LEDs should start blinking
+5. Once in DFU mode, the device will appear as "USB Serial Device"
+6. If you have multiple USB Serial devices connected make sure to choose the right one
+7. Click the "Three Dots" button to select the firmware file
+8. Then Click flash button. 
 
 ---
 
