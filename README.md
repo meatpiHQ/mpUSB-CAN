@@ -91,13 +91,12 @@ CAN-Analyzer firmware is based on slcan firmware, it also uses CDC serial interf
 
 ![image](https://user-images.githubusercontent.com/94690098/146773960-5d2bcb26-4532-49b1-88ed-c5d18794a0c0.png)
 Download mpFlasher Tool. [**Link**](https://bit.ly/3yGgGTm)
-1. Available API for **LabView, C#, VB.Net, Delphi, Python**
-2. Set the 1.27mm DFU jumper
-3. Plug in the USB cable, both LEDs should start blinking
-4. Once in DFU mode, the device will appear as "USB Serial Device"
-5. If you have multiple USB Serial devices connected make sure to choose the right one
-6. Click the "Three Dots" button to select the firmware file
-7. Then Click flash button. 
+1. Set the 1.27mm DFU jumper
+2. Plug in the USB cable, both LEDs should start blinking
+3. Once in DFU mode, the device will appear as "USB Serial Device"
+4. If you have multiple USB Serial devices connected make sure to choose the right one
+5. Click the "Three Dots" button to select the firmware file
+6. Then Click flash button. 
 
 ---
 
